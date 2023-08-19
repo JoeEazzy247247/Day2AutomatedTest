@@ -14,7 +14,6 @@ namespace Day2AutomatedTest.BaseHooks
 
     public class BasePage
     {
-        //This is base page
         public WebDriver browser; 
 
         [SetUp]
