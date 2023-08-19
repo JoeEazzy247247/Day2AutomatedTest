@@ -13,5 +13,7 @@ namespace Day2AutomatedTest.BaseHooks
         {
             driver = _driver;  
         }
+
+        //Just a comment
     }
 }
