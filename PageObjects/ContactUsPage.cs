@@ -22,7 +22,6 @@ namespace Day2AutomatedTest.PageObjects
         IWebElement submitbtn => driver.FindElement(By.CssSelector("input[name=submit]"));
 
 
-
         public GetIntouchPage FillContactUsForm(string Name, string Email
             , string Subject, string Msg)
         {
