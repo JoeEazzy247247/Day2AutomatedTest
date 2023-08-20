@@ -33,5 +33,17 @@ namespace Day2AutomatedTest.NewtestModules
 
             Assert.True(getIntouchPage.IsSuccessMsgDisplayed());
         }
+
+        [Test]
+        public void POMTest4()
+        {
+            homePage.NavigateToHomePage();
+
+            homePage.ClickContactUs();
+
+            contactUsPage.FillContactUsForm("Femi", "Femi@abc.com", "My special query", "My message");
+
+            Assert.True(getIntouchPage.IsSuccessMsgDisplayed());
+        }
     }
 }
