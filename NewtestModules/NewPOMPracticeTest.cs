@@ -33,11 +33,5 @@ namespace Day2AutomatedTest.NewtestModules
 
             Assert.True(getIntouchPage.IsSuccessMsgDisplayed());
         }
-
-        [Test]
-        public void POMTest4()
-        {
-            
-        }
     }
 }
